@@ -2,8 +2,8 @@ import './App.css';
 
 import React, { useState } from 'react';
 
-import Todo from './Todo';
-import TodoForm from './TodoForm';
+import Todo from './components/Todo';
+import TodoForm from './components/TodoForm';
 
 interface TodoItem {
   text: string;
